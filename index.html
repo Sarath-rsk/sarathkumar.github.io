@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarath Kumar | Aerospace Technical Writer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg-color: #0d0d0d;
+            --surface-color: #1a1a1a;
+            --text-primary: #f4f4f5;
+            --text-secondary: #a1a1aa;
+            --accent-color: #3b82f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: left;
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #333;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        header h2 {
+            font-size: 1.25rem;
+            color: var(--accent-color);
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        section h2 {
+            font-size: 1.75rem;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media(min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--surface-color);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #2a2a2a;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #444;
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+
+        .card .meta {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .card p, .card ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .card ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .card ul li {
+            margin-bottom: 8px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .tag {
+            background-color: #2a2a2a;
+            color: #e4e4e7;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid #3f3f46;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Sarath Kumar</h1>
+        <h2>Aerospace Technical Writer | Aircraft Material Data Specialist</h2>
+        <p>IPC & Configuration Management</p>
+        <div class="contact-info">
+            <a href="mailto:rsksarath007@gmail.com">rsksarath007@gmail.com</a>
+            <span>+918122330806</span>
+            <span>Tamil Nadu, India</span>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>I am a strategic and quality-focused technical data author with over 8.5 years of experience in the Aerospace technical publications domain. Specializing in the management and delivery of Illustrated Parts Catalogues (IPC) across Airbus aircraft (A320, A330, A340, A380), I ensure end-to-end compliance within the ICA process. Alongside managing configuration, maintenance needs, and customer expectations, I am deeply interested in exploring how the application of AI within the aerospace industry can further optimize data modeling, technical authoring, and documentation workflows. I actively mentor teams, lead cross-departmental collaboration, and focus on delivering high-impact results under fast-paced, regulated environments.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Lead Engineer</h3>
+                <div class="meta">Alten India Pvt Ltd, Bangalore | April 2019 - Present</div>
+                <ul>
+                    <li>Lead authoring and validation of IPC incorporations for Airbus programs (A320, A330, A340, A380).</li>
+                    <li>Conduct comprehensive impact analysis of design changes (Mod, MPM, SB, COC) on technical documentation.</li>
+                    <li>Engage with design office and internal contributors to raise Source Data Requests (SDR) and resolve gaps.</li>
+                    <li>Handle complex technical queries through tech-request management (TRM), ensuring high-quality support.</li>
+                    <li>Mentor junior engineers and streamline documentation processes through Lean initiatives.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Junior Engineer</h3>
+                <div class="meta">Wissen Glanz India Pvt Ltd, Bangalore | Oct 2017 - March 2019</div>
+                <ul>
+                    <li>Authored and updated Illustrated Parts Catalogues (IPC) per ATA specifications.</li>
+                    <li>Ensured data accuracy through Engineering Order analysis and aircraft maintenance references.</li>
+                    <li>Delivered documentation aligned with customer aircraft configurations and change criteria.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Key Projects & Highlights</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>CMM Development (Airbus A320 & A380)</h3>
+                <div class="meta">Nov 2021 - April 2022</div>
+                <ul>
+                    <li>Created/modified CMM page blocks based on ATP and engineering drawings (iSpec2200, S1000D, ASD-STE100).</li>
+                    <li>Developed and validated Illustrated Parts Lists (IPL) by analyzing detailed technical drawings.</li>
+                    <li>Incorporated SBs and COCs into CMM documentation for cabin components.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Operational Milestones</h3>
+                <div class="meta">Career Highlights</div>
+                <ul>
+                    <li>Delivered over 7000+ IPC work orders with 100% quality and zero external NCS.</li>
+                    <li>Resolved 250+ customer RFIs, significantly improving TRM response KPIs.</li>
+                    <li>Boosted team productivity by 40% through structured accountability and process improvements.</li>
+                    <li>Directed project execution for ATA chapter management across multiple aircraft platforms.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Tools & Technologies</h2>
+        <div class="tags">
+            <span class="tag">SAP ERP</span>
+            <span class="tag">TECHREQUEST</span>
+            <span class="tag">AIRNAV</span>
+            <span class="tag">MS OFFICE SUITE</span>
+            <span class="tag">ICC CADB</span>
+            <span class="tag">PRODUCT VIEW</span>
+            <span class="tag">CADABAS</span>
+            <span class="tag">ICC ACP</span>
+            <span class="tag">AIRINA</span>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Academic Credentials</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Bachelor of Aeronautical Engineering</h3>
+                <div class="meta">Kumaraguru College of Technology | 2014 - 2017</div>
+                <p>Coimbatore, India</p>
+            </div>
+            <div class="card">
+                <h3>Diploma in Mechanical Engineering</h3>
+                <div class="meta">CIT Sandwich Polytechnic College | 2010 - 2013</div>
+                <p>Coimbatore, India</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
